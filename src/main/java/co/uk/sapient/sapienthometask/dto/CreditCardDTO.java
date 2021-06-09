@@ -27,5 +27,5 @@ public class CreditCardDTO extends BaseDTO<CreditCardEntity> {
     private BigDecimal cardLimit;
 
     // new cards star with a £0 balance
-    private BigDecimal balance;
+    private BigDecimal balance = BigDecimal.ZERO;
 }
